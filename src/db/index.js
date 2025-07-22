@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
-
+import dotenv from "dotenv";
+dotenv.config();
 //db is in another continent
 
 const connectDB= async()=>{
